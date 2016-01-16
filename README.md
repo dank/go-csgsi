@@ -21,14 +21,14 @@ $ go get -u github.com/nicememe/go-csgsi
 # Usage
 
 To initialize the library:
-```
+```go
 // size int - Size of the channel
 game := csgsi.New(10)
 ```
 
 To receive updates, read from the channel provided: `game.Channel`:
 
-```
+```go
 // Example 1 - Looping (blocking)
 for state := range game.Channel {
 	fmt.Println(state.Player.SomeData)
@@ -51,8 +51,8 @@ go func() {
 ```
 
 To start listening to an address:
-```
-// address string
+```go
+// address string - TCP address to listen on
 game.Listen(":3000") // localhost:3000
 game.Listen("8.8.4.4:3000") // 8.8.4.4:3000
 ```
@@ -122,7 +122,7 @@ State
 ## Example
 
 Prints weapon stats (name, ammo) when weapon is active:
-```
+```go
 func main()  {
 	game := csgsi.New(0)
 
