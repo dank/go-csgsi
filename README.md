@@ -103,7 +103,7 @@ State
                 .Ammo_clip; int
                 .Ammo_clip_max; int
                 .Ammo_reserve; int
-        .MatchStats
+        .Match_stats
             .Kills; int
             .Assists; int
             .Deaths; int
