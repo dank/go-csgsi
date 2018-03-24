@@ -15,7 +15,7 @@ This information can be continuously retrieved and analyzed using a [Channel](ht
 Via [Go](https://golang.org/):
 
 ```
-$ go get -u github.com/nicememe/go-csgsi
+$ go get -u github.com/dank/go-csgsi
 ```
 
 # Usage
@@ -175,7 +175,7 @@ You'll need to create a `gamestate_integration_*.cfg` file under `csgo/cfg` in y
 ```
 The MIT License (MIT)
 
-Copyright (c) 2016 Danny Kyung
+Copyright (c) 2016 Dan Kyung
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
